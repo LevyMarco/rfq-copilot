@@ -1,0 +1,104 @@
+[
+  {
+    "id": "clean_bullet_list",
+    "why": "The easy case. If this fails, something is badly broken.",
+    "text": "Hi,\n\nPlease quote the following:\n- 10 x Ball Valve 1/2\" SS316 Threaded\n- 4 x Gate Valve 3\" CS Flanged Class 150\n- 50 x 90 Deg Elbow 1/2\" SS304 Socket Weld\n\nThanks,\nPaul\nAcme Industrial",
+    "expect_line_count": 3,
+    "expect_skus": [
+      "BV-1002",
+      "GV-1018",
+      "EL-1025"
+    ]
+  },
+  {
+    "id": "metric_sizes",
+    "why": "Buyers outside the US write DN, not inches. Same product.",
+    "text": "Good morning,\nWe need DN15 ball valve stainless 316 threaded, qty 6.\nAlso DN50 ball valve carbon steel, 2 pcs.\nRegards",
+    "expect_line_count": 2,
+    "expect_skus": [
+      "BV-1002",
+      "BV-1010"
+    ]
+  },
+  {
+    "id": "quantity_formats",
+    "why": "Quantity appears in five different shapes in real inboxes.",
+    "text": "qty 25 hex head bolt M12x50 SS316 DIN 933\n3 pcs deep groove ball bearing 6205-2RS\n100 units spiral wound gasket 2\" SS316 class 150",
+    "expect_line_count": 3,
+    "expect_quantities": [
+      25,
+      3,
+      100
+    ]
+  },
+  {
+    "id": "prose_paragraph",
+    "why": "The case the heuristic baseline cannot do. This is what the LLM is for.",
+    "text": "Hello, we are refurbishing a pump skid next month and I will need a couple of things. First, twelve of the half inch stainless 316 ball valves, the threaded two piece ones. On top of that please include forty of the 6204 bearings with the ZZ shields. Let me know lead times.",
+    "expect_line_count": 2,
+    "expect_skus": [
+      "BV-1002",
+      "BR-1044"
+    ],
+    "expect_quantities": [
+      12,
+      40
+    ]
+  },
+  {
+    "id": "signature_noise",
+    "why": "Signature blocks and legal footers must not become line items.",
+    "text": "Please quote:\n2 x Hydraulic Hose 1\" 2-Wire Braid SAE 100R2\n\n--\nJohn Miller | Maintenance Supervisor\nNorthside Processing Ltd | +1 555 0142\nThis email and any attachments are confidential and intended solely for the addressee.\nSent from my iPhone",
+    "expect_line_count": 1,
+    "expect_skus": [
+      "HS-1057"
+    ]
+  },
+  {
+    "id": "ambiguous_no_material",
+    "why": "Buyer gave no material. The system must flag, not guess.",
+    "text": "Need 5 ball valves 1\" threaded, quote please",
+    "expect_line_count": 1,
+    "expect_needs_review": [
+      true
+    ]
+  },
+  {
+    "id": "not_in_catalog",
+    "why": "Asking for something we do not sell must not silently match to the nearest thing.",
+    "text": "Quote 3 x pneumatic actuator with limit switch box, 24VDC",
+    "expect_line_count": 1,
+    "expect_needs_review": [
+      true
+    ]
+  },
+  {
+    "id": "explicit_sku",
+    "why": "If the buyer quotes our own part number, nothing else should win.",
+    "text": "Reorder as last time: BR-1052 qty 8",
+    "expect_line_count": 1,
+    "expect_skus": [
+      "BR-1052"
+    ]
+  },
+  {
+    "id": "mixed_units",
+    "why": "Hose is sold by the metre, valves by the piece. Units must survive.",
+    "text": "- 30 m hydraulic hose 3/4\" 2 wire braid\n- 2 pcs ball valve 3/4\" brass threaded",
+    "expect_line_count": 2,
+    "expect_quantities": [
+      30,
+      2
+    ]
+  },
+  {
+    "id": "typos_and_case",
+    "why": "Real emails are typed fast on a phone.",
+    "text": "pls quote 15x ball valve 1/2 inch ss 316 threded\nand 20 x elbow 90 deg 1 inch ss316 socket weld",
+    "expect_line_count": 2,
+    "expect_skus": [
+      "BV-1002",
+      "EL-1029"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+sku,name,category,size,material,pressure_rating,unit,list_price,stock_qty,lead_time_days
+BV-1001,"Ball Valve 1/2"" CS Threaded 2-Piece",Valves,"1/2""",CS,1000 WOG,EA,40,12,3
+BV-1002,"Ball Valve 1/2"" SS316 Threaded 2-Piece",Valves,"1/2""",SS316,1000 WOG,EA,58,40,0
+BV-1003,"Ball Valve 1/2"" Brass Threaded 2-Piece",Valves,"1/2""",Brass,1000 WOG,EA,67,0,0
+BV-1004,"Ball Valve 3/4"" CS Threaded 2-Piece",Valves,"3/4""",CS,1000 WOG,EA,51,12,0
+BV-1005,"Ball Valve 3/4"" SS316 Threaded 2-Piece",Valves,"3/4""",SS316,1000 WOG,EA,69,120,3
+BV-1006,"Ball Valve 3/4"" Brass Threaded 2-Piece",Valves,"3/4""",Brass,1000 WOG,EA,78,0,0
+BV-1007,"Ball Valve 1"" CS Threaded 2-Piece",Valves,"1""",CS,1000 WOG,EA,62,40,21
+BV-1008,"Ball Valve 1"" SS316 Threaded 2-Piece",Valves,"1""",SS316,1000 WOG,EA,80,0,3
+BV-1009,"Ball Valve 1"" Brass Threaded 2-Piece",Valves,"1""",Brass,1000 WOG,EA,89,0,21
+BV-1010,"Ball Valve 2"" CS Threaded 2-Piece",Valves,"2""",CS,1000 WOG,EA,84,0,0
+BV-1011,"Ball Valve 2"" SS316 Threaded 2-Piece",Valves,"2""",SS316,1000 WOG,EA,102,4,0
+BV-1012,"Ball Valve 2"" Brass Threaded 2-Piece",Valves,"2""",Brass,1000 WOG,EA,111,120,21
+BV-1013,"Ball Valve 3"" CS Threaded 2-Piece",Valves,"3""",CS,1000 WOG,EA,95,0,3
+BV-1014,"Ball Valve 3"" SS316 Threaded 2-Piece",Valves,"3""",SS316,1000 WOG,EA,113,0,3
+BV-1015,"Ball Valve 3"" Brass Threaded 2-Piece",Valves,"3""",Brass,1000 WOG,EA,122,12,21
+GV-1016,"Gate Valve 2"" CS Flanged Class 150",Valves,"2""",CS,Class 150,EA,500,2,0
+GV-1017,"Gate Valve 2"" SS304 Flanged Class 150",Valves,"2""",SS304,Class 150,EA,570,6,7
+GV-1018,"Gate Valve 3"" CS Flanged Class 150",Valves,"3""",CS,Class 150,EA,560,0,7
+GV-1019,"Gate Valve 3"" SS304 Flanged Class 150",Valves,"3""",SS304,Class 150,EA,630,6,0
+GV-1020,"Gate Valve 4"" CS Flanged Class 150",Valves,"4""",CS,Class 150,EA,620,0,0
+GV-1021,"Gate Valve 4"" SS304 Flanged Class 150",Valves,"4""",SS304,Class 150,EA,690,2,45
+EL-1022,"90 Deg Elbow 1/4"" SS304 Socket Weld",Fittings,"1/4""",SS304,3000 lb,EA,9,800,3
+EL-1023,"90 Deg Elbow 1/4"" SS316 Socket Weld",Fittings,"1/4""",SS316,3000 lb,EA,14,800,7
+EL-1024,"90 Deg Elbow 1/4"" PVC Socket Weld",Fittings,"1/4""",PVC,3000 lb,EA,24,800,3
+EL-1025,"90 Deg Elbow 1/2"" SS304 Socket Weld",Fittings,"1/2""",SS304,3000 lb,EA,21,200,0
+EL-1026,"90 Deg Elbow 1/2"" SS316 Socket Weld",Fittings,"1/2""",SS316,3000 lb,EA,26,50,7
+EL-1027,"90 Deg Elbow 1/2"" PVC Socket Weld",Fittings,"1/2""",PVC,3000 lb,EA,36,50,0
+EL-1028,"90 Deg Elbow 1"" SS304 Socket Weld",Fittings,"1""",SS304,3000 lb,EA,33,200,7
+EL-1029,"90 Deg Elbow 1"" SS316 Socket Weld",Fittings,"1""",SS316,3000 lb,EA,38,800,3
+EL-1030,"90 Deg Elbow 1"" PVC Socket Weld",Fittings,"1""",PVC,3000 lb,EA,48,800,3
+EL-1031,"90 Deg Elbow 2"" SS304 Socket Weld",Fittings,"2""",SS304,3000 lb,EA,45,0,0
+EL-1032,"90 Deg Elbow 2"" SS316 Socket Weld",Fittings,"2""",SS316,3000 lb,EA,50,800,0
+EL-1033,"90 Deg Elbow 2"" PVC Socket Weld",Fittings,"2""",PVC,3000 lb,EA,60,200,0
+TE-1034,"Equal Tee 1/2"" SS316 Threaded",Fittings,"1/2""",SS316,3000 lb,EA,35,600,3
+TE-1035,"Equal Tee 1/2"" CS Threaded",Fittings,"1/2""",CS,3000 lb,EA,23,0,14
+TE-1036,"Equal Tee 1"" SS316 Threaded",Fittings,"1""",SS316,3000 lb,EA,51,0,14
+TE-1037,"Equal Tee 1"" CS Threaded",Fittings,"1""",CS,3000 lb,EA,39,150,3
+TE-1038,"Equal Tee 2"" SS316 Threaded",Fittings,"2""",SS316,3000 lb,EA,67,150,14
+TE-1039,"Equal Tee 2"" CS Threaded",Fittings,"2""",CS,3000 lb,EA,55,600,14
+BR-1040,Deep Groove Ball Bearing 6203-2RS,Bearings,6203,Chrome Steel,-,EA,10.4,300,0
+BR-1041,Deep Groove Ball Bearing 6203-ZZ,Bearings,6203,Chrome Steel,-,EA,7.4,0,5
+BR-1042,Deep Groove Ball Bearing 6203-Open,Bearings,6203,Chrome Steel,-,EA,7.4,300,20
+BR-1043,Deep Groove Ball Bearing 6204-2RS,Bearings,6204,Chrome Steel,-,EA,11.2,0,0
+BR-1044,Deep Groove Ball Bearing 6204-ZZ,Bearings,6204,Chrome Steel,-,EA,8.2,90,20
+BR-1045,Deep Groove Ball Bearing 6204-Open,Bearings,6204,Chrome Steel,-,EA,8.2,300,5
+BR-1046,Deep Groove Ball Bearing 6205-2RS,Bearings,6205,Chrome Steel,-,EA,12.0,300,20
+BR-1047,Deep Groove Ball Bearing 6205-ZZ,Bearings,6205,Chrome Steel,-,EA,9.0,90,0
+BR-1048,Deep Groove Ball Bearing 6205-Open,Bearings,6205,Chrome Steel,-,EA,9.0,300,5
+BR-1049,Deep Groove Ball Bearing 6206-2RS,Bearings,6206,Chrome Steel,-,EA,12.8,20,20
+BR-1050,Deep Groove Ball Bearing 6206-ZZ,Bearings,6206,Chrome Steel,-,EA,9.8,0,5
+BR-1051,Deep Groove Ball Bearing 6206-Open,Bearings,6206,Chrome Steel,-,EA,9.8,0,0
+BR-1052,Deep Groove Ball Bearing 6305-2RS,Bearings,6305,Chrome Steel,-,EA,12.0,90,0
+BR-1053,Deep Groove Ball Bearing 6305-ZZ,Bearings,6305,Chrome Steel,-,EA,9.0,20,5
+BR-1054,Deep Groove Ball Bearing 6305-Open,Bearings,6305,Chrome Steel,-,EA,9.0,300,5
+HS-1055,"Hydraulic Hose 1/2"" 2-Wire Braid SAE 100R2",Hose,"1/2""",Rubber/Steel,3500 PSI,M,23,0,0
+HS-1056,"Hydraulic Hose 3/4"" 2-Wire Braid SAE 100R2",Hose,"3/4""",Rubber/Steel,3500 PSI,M,30,60,7
+HS-1057,"Hydraulic Hose 1"" 2-Wire Braid SAE 100R2",Hose,"1""",Rubber/Steel,3500 PSI,M,37,250,7
+HS-1058,"Hydraulic Hose 2"" 2-Wire Braid SAE 100R2",Hose,"2""",Rubber/Steel,3500 PSI,M,51,0,7
+FS-1059,Hex Head Bolt M8x50 SS316 DIN 933,Fasteners,M8,SS316,8.8,EA,2.26,2000,10
+FS-1060,Hex Head Bolt M8x50 Zinc Plated DIN 933,Fasteners,M8,Zinc Plated,8.8,EA,1.36,5000,3
+FS-1061,Hex Head Bolt M10x50 SS316 DIN 933,Fasteners,M10,SS316,8.8,EA,2.5,5000,0
+FS-1062,Hex Head Bolt M10x50 Zinc Plated DIN 933,Fasteners,M10,Zinc Plated,8.8,EA,1.6,500,0
+FS-1063,Hex Head Bolt M12x50 SS316 DIN 933,Fasteners,M12,SS316,8.8,EA,2.74,500,0
+FS-1064,Hex Head Bolt M12x50 Zinc Plated DIN 933,Fasteners,M12,Zinc Plated,8.8,EA,1.84,500,10
+FS-1065,Hex Head Bolt M16x50 SS316 DIN 933,Fasteners,M16,SS316,8.8,EA,3.22,500,0
+FS-1066,Hex Head Bolt M16x50 Zinc Plated DIN 933,Fasteners,M16,Zinc Plated,8.8,EA,2.32,5000,10
+GK-1067,"Spiral Wound Gasket 1"" SS316/Graphite Class 150",Gaskets,"1""",SS316,Class 150,EA,26,0,5
+GK-1068,"Spiral Wound Gasket 2"" SS316/Graphite Class 150",Gaskets,"2""",SS316,Class 150,EA,36,25,0
+GK-1069,"Spiral Wound Gasket 3"" SS316/Graphite Class 150",Gaskets,"3""",SS316,Class 150,EA,41,0,5
+GK-1070,"Spiral Wound Gasket 4"" SS316/Graphite Class 150",Gaskets,"4""",SS316,Class 150,EA,46,120,5
