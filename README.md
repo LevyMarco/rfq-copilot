@@ -54,8 +54,8 @@ decide what anyone pays.
 splitting. It needs no API key and no network. It exists so the app runs for
 anyone who clones the repo, so the evals run in CI, and — mainly — so there is
 something to measure the LLM against. "The AI works" is not a claim you can act
-on. "The LLM adds N points of SKU accuracy over regex, concentrated in
-prose-style emails" is.
+on. "The LLM adds X points of SKU accuracy over regex on these ten cases" is,
+and the harness below is what produces that number.
 
 **Confidence is a first-class output, not a nice-to-have.** A system that is
 right 90% of the time and cannot tell you *which* 90% is unusable in front of a
@@ -107,7 +107,7 @@ metric vs imperial sizing, five different quantity formats, signature blocks
 that must not become line items, requests for products that are not in the
 catalog, typos, and one prose paragraph with the numbers spelled out.
 
-Current baseline:
+Baseline result, reproducible without an API key:
 
 ```
 === heuristic baseline ===
@@ -118,9 +118,13 @@ Current baseline:
 ```
 
 The single case the baseline fails completely is `prose_paragraph` — a buyer
-writing in flowing sentences with "twelve" and "forty" spelled out. That is
-precisely the case that justifies the model's cost, and it is visible in the
-report rather than asserted in a README.
+writing in flowing sentences with "twelve" and "forty" spelled out. It finds
+zero line items there.
+
+The LLM row is not published here: `--llm --compare` needs an
+`ANTHROPIC_API_KEY`, and I would rather leave it empty than fill it with a
+figure I have not measured. Anyone with a key reproduces it in one command,
+and `prose_paragraph` is where I expect the gap to show.
 
 ## API
 
